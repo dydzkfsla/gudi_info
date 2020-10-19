@@ -16,5 +16,10 @@ namespace gudi_info
         {
             InitializeComponent();
         }
+
+        private void 상품정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
