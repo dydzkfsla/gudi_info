@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace gudi_info
 {
-    public partial class 상품정보 : Form
+    public partial class 예약_실행 : Form
     {
-        public 상품정보()
+        public 예약_실행()
         {
             InitializeComponent();
-        }
-
-        private void 상품정보ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

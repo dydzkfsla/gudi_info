@@ -1,6 +1,6 @@
 ﻿namespace gudi_info
 {
-    partial class 상품상세
+    partial class 예약_실행
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form6
+            // 예약_실행
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 618);
-            this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
-            this.Name = "Form6";
-            this.Text = "Form6";
+            this.ClientSize = new System.Drawing.Size(728, 841);
+            this.Name = "예약_실행";
+            this.Text = "예약_실행";
             this.ResumeLayout(false);
 
         }

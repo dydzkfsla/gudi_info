@@ -21,5 +21,10 @@ namespace gudi_info
         {
 
         }
+
+        private void cToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
