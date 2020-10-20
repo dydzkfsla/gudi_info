@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace gudi_info
 {
-    public partial class Form1 : Form
+    public partial class 상품정보 : Form
     {
-        public Form1()
+        public 상품정보()
         {
             InitializeComponent();
         }

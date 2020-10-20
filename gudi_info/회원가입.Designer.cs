@@ -1,6 +1,6 @@
 ﻿namespace gudi_info
 {
-    partial class Form2
+    partial class 회원가입
     {
         /// <summary>
         /// Required designer variable.
