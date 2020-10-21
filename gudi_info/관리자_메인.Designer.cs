@@ -62,31 +62,27 @@
             treeNode16});
             System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("예약 리스트");
             System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("예약 상세");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("예약 수정");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("예약정보 관리", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("예약정보 관리", new System.Windows.Forms.TreeNode[] {
             treeNode18,
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("회원 리스트");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("회원 정보");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("회원 정보 수정");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("회원관리", new System.Windows.Forms.TreeNode[] {
-            treeNode22,
-            treeNode23,
-            treeNode24});
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("코드 관리");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("부서관리");
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("회원 리스트");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("회원 정보");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("회원관리", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("코드 관리");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("부서관리");
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // treeView1
             // 
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.treeView1.Location = new System.Drawing.Point(0, 24);
+            this.treeView1.Location = new System.Drawing.Point(0, 28);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "Employees_list";
             treeNode1.Text = "직원 목록";
@@ -126,54 +122,52 @@
             treeNode18.Text = "예약 리스트";
             treeNode19.Name = "reserv_info";
             treeNode19.Text = "예약 상세";
-            treeNode20.Name = "reserv_Update";
-            treeNode20.Text = "예약 수정";
-            treeNode21.Name = "reservation";
-            treeNode21.Text = "예약정보 관리";
-            treeNode22.Name = "User_list";
-            treeNode22.Text = "회원 리스트";
-            treeNode23.Name = "User_info";
-            treeNode23.Text = "회원 정보";
-            treeNode24.Name = "user_Update";
-            treeNode24.Text = "회원 정보 수정";
-            treeNode25.Name = "user";
-            treeNode25.Text = "회원관리";
-            treeNode26.Name = "code";
-            treeNode26.Text = "코드 관리";
-            treeNode27.Name = "dept";
-            treeNode27.Text = "부서관리";
+            treeNode20.Name = "reservation";
+            treeNode20.Text = "예약정보 관리";
+            treeNode21.Name = "User_list";
+            treeNode21.Text = "회원 리스트";
+            treeNode22.Name = "User_info";
+            treeNode22.Text = "회원 정보";
+            treeNode23.Name = "user";
+            treeNode23.Text = "회원관리";
+            treeNode24.Name = "code";
+            treeNode24.Text = "코드 관리";
+            treeNode25.Name = "dept";
+            treeNode25.Text = "부서관리";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode4,
             treeNode13,
             treeNode17,
-            treeNode21,
-            treeNode25,
-            treeNode26,
-            treeNode27});
-            this.treeView1.Size = new System.Drawing.Size(254, 729);
+            treeNode20,
+            treeNode23,
+            treeNode24,
+            treeNode25});
+            this.treeView1.Size = new System.Drawing.Size(254, 725);
             this.treeView1.TabIndex = 1;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.로그아웃ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1236, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1236, 28);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // 로그아웃ToolStripMenuItem
             // 
             this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
-            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.로그아웃ToolStripMenuItem.Text = "로그아웃";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // 관리자_메인
             // 

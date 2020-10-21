@@ -70,6 +70,12 @@
     <Compile Include="관리자_메인.Designer.cs">
       <DependentUpon>관리자_메인.cs</DependentUpon>
     </Compile>
+    <Compile Include="관리자_상세정보.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="관리자_상세정보.Designer.cs">
+      <DependentUpon>관리자_상세정보.cs</DependentUpon>
+    </Compile>
     <Compile Include="로그인.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="관리자_메인.resx">
       <DependentUpon>관리자_메인.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="관리자_상세정보.resx">
+      <DependentUpon>관리자_상세정보.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="로그인.resx">
       <DependentUpon>로그인.cs</DependentUpon>
