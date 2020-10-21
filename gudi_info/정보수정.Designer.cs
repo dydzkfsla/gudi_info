@@ -48,6 +48,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,25 +75,25 @@
             this.ㄴ9ㅇToolStripMenuItem,
             this.결제내역ToolStripMenuItem});
             this.내정보ToolStripMenuItem.Name = "내정보ToolStripMenuItem";
-            this.내정보ToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.내정보ToolStripMenuItem.Size = new System.Drawing.Size(59, 19);
             this.내정보ToolStripMenuItem.Text = "내 정보";
             // 
             // 정보수정ToolStripMenuItem
             // 
             this.정보수정ToolStripMenuItem.Name = "정보수정ToolStripMenuItem";
-            this.정보수정ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.정보수정ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.정보수정ToolStripMenuItem.Text = "정보 수정";
             // 
             // ㄴ9ㅇToolStripMenuItem
             // 
             this.ㄴ9ㅇToolStripMenuItem.Name = "ㄴ9ㅇToolStripMenuItem";
-            this.ㄴ9ㅇToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.ㄴ9ㅇToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ㄴ9ㅇToolStripMenuItem.Text = "예약 정보";
             // 
             // 결제내역ToolStripMenuItem
             // 
             this.결제내역ToolStripMenuItem.Name = "결제내역ToolStripMenuItem";
-            this.결제내역ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.결제내역ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.결제내역ToolStripMenuItem.Text = "결제 내역";
             // 
             // 상품정보ToolStripMenuItem
@@ -100,7 +102,7 @@
             this.인기상품ToolStripMenuItem,
             this.상품리스트ToolStripMenuItem});
             this.상품정보ToolStripMenuItem.Name = "상품정보ToolStripMenuItem";
-            this.상품정보ToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.상품정보ToolStripMenuItem.Size = new System.Drawing.Size(75, 19);
             this.상품정보ToolStripMenuItem.Text = "상품 정보 ";
             // 
             // 인기상품ToolStripMenuItem
@@ -121,7 +123,7 @@
             this.대표여행지ToolStripMenuItem,
             this.모든여행지ToolStripMenuItem});
             this.여행지정보ToolStripMenuItem.Name = "여행지정보ToolStripMenuItem";
-            this.여행지정보ToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
+            this.여행지정보ToolStripMenuItem.Size = new System.Drawing.Size(83, 19);
             this.여행지정보ToolStripMenuItem.Text = "여행지 정보";
             // 
             // 대표여행지ToolStripMenuItem
@@ -215,12 +217,32 @@
             this.textBox4.Size = new System.Drawing.Size(252, 39);
             this.textBox4.TabIndex = 11;
             // 
-            // Form4
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(57, 388);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 68);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "수정";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(257, 388);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(141, 68);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // 정보수정
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(517, 508);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -233,7 +255,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.Name = "Form4";
+            this.Name = "정보수정";
             this.Text = "Form4";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -264,5 +286,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

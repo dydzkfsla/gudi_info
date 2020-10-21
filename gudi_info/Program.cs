@@ -16,7 +16,8 @@ namespace gudi_info
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 로그인());
+            Application.Run(new 관리자_메인());
+
         }
     }
 }
