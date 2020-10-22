@@ -52,12 +52,6 @@
     <Compile Include="경유지 정보.Designer.cs">
       <DependentUpon>경유지 정보.cs</DependentUpon>
     </Compile>
-    <Compile Include="관리자 예약 정보 상세.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="관리자 예약 정보 상세.Designer.cs">
-      <DependentUpon>관리자 예약 정보 상세.cs</DependentUpon>
-    </Compile>
     <Compile Include="관리자_리스트.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,9 +138,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="경유지 정보.resx">
       <DependentUpon>경유지 정보.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="관리자 예약 정보 상세.resx">
-      <DependentUpon>관리자 예약 정보 상세.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="관리자_리스트.resx">
       <DependentUpon>관리자_리스트.cs</DependentUpon>

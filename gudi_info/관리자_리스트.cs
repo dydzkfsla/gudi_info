@@ -16,5 +16,10 @@ namespace gudi_info
         {
             InitializeComponent();
         }
+
+        private void 관리자_리스트_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

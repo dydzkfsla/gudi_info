@@ -43,6 +43,7 @@
             this.상품리스트ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.대표여행지ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.모든여행지ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -103,7 +104,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.내정보ToolStripMenuItem,
-            this.상품정보ToolStripMenuItem});
+            this.상품정보ToolStripMenuItem,
+            this.로그아웃ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
@@ -167,6 +169,12 @@
             this.모든여행지ToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.모든여행지ToolStripMenuItem1.Text = "모든 여행지";
             // 
+            // 로그아웃ToolStripMenuItem
+            // 
+            this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
+            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(67, 19);
+            this.로그아웃ToolStripMenuItem.Text = "로그아웃";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
@@ -205,5 +213,6 @@
         private System.Windows.Forms.ToolStripMenuItem 상품리스트ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 대표여행지ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 모든여행지ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 로그아웃ToolStripMenuItem;
     }
 }

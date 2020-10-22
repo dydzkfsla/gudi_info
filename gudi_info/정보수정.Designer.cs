@@ -28,17 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.내정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.정보수정ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ㄴ9ㅇToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.결제내역ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.상품정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.인기상품ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.상품리스트ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.여행지정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.대표여행지ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.모든여행지ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,93 +39,18 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.내정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.정보수정ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ㄴ9ㅇToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.결제내역ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.상품정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.상품리스트ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.대표여행지ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.모든여행지ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.로그아웃ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.SkyBlue;
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.내정보ToolStripMenuItem,
-            this.상품정보ToolStripMenuItem,
-            this.여행지정보ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 5, 0, 5);
-            this.menuStrip1.Size = new System.Drawing.Size(517, 29);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // 내정보ToolStripMenuItem
-            // 
-            this.내정보ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.정보수정ToolStripMenuItem,
-            this.ㄴ9ㅇToolStripMenuItem,
-            this.결제내역ToolStripMenuItem});
-            this.내정보ToolStripMenuItem.Name = "내정보ToolStripMenuItem";
-            this.내정보ToolStripMenuItem.Size = new System.Drawing.Size(59, 19);
-            this.내정보ToolStripMenuItem.Text = "내 정보";
-            // 
-            // 정보수정ToolStripMenuItem
-            // 
-            this.정보수정ToolStripMenuItem.Name = "정보수정ToolStripMenuItem";
-            this.정보수정ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.정보수정ToolStripMenuItem.Text = "정보 수정";
-            // 
-            // ㄴ9ㅇToolStripMenuItem
-            // 
-            this.ㄴ9ㅇToolStripMenuItem.Name = "ㄴ9ㅇToolStripMenuItem";
-            this.ㄴ9ㅇToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ㄴ9ㅇToolStripMenuItem.Text = "예약 정보";
-            // 
-            // 결제내역ToolStripMenuItem
-            // 
-            this.결제내역ToolStripMenuItem.Name = "결제내역ToolStripMenuItem";
-            this.결제내역ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.결제내역ToolStripMenuItem.Text = "결제 내역";
-            // 
-            // 상품정보ToolStripMenuItem
-            // 
-            this.상품정보ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.인기상품ToolStripMenuItem,
-            this.상품리스트ToolStripMenuItem});
-            this.상품정보ToolStripMenuItem.Name = "상품정보ToolStripMenuItem";
-            this.상품정보ToolStripMenuItem.Size = new System.Drawing.Size(75, 19);
-            this.상품정보ToolStripMenuItem.Text = "상품 정보 ";
-            // 
-            // 인기상품ToolStripMenuItem
-            // 
-            this.인기상품ToolStripMenuItem.Name = "인기상품ToolStripMenuItem";
-            this.인기상품ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.인기상품ToolStripMenuItem.Text = "인기 상품";
-            // 
-            // 상품리스트ToolStripMenuItem
-            // 
-            this.상품리스트ToolStripMenuItem.Name = "상품리스트ToolStripMenuItem";
-            this.상품리스트ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.상품리스트ToolStripMenuItem.Text = "상품 리스트";
-            // 
-            // 여행지정보ToolStripMenuItem
-            // 
-            this.여행지정보ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.대표여행지ToolStripMenuItem,
-            this.모든여행지ToolStripMenuItem});
-            this.여행지정보ToolStripMenuItem.Name = "여행지정보ToolStripMenuItem";
-            this.여행지정보ToolStripMenuItem.Size = new System.Drawing.Size(83, 19);
-            this.여행지정보ToolStripMenuItem.Text = "여행지 정보";
-            // 
-            // 대표여행지ToolStripMenuItem
-            // 
-            this.대표여행지ToolStripMenuItem.Name = "대표여행지ToolStripMenuItem";
-            this.대표여행지ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.대표여행지ToolStripMenuItem.Text = "대표 여행지";
-            // 
-            // 모든여행지ToolStripMenuItem
-            // 
-            this.모든여행지ToolStripMenuItem.Name = "모든여행지ToolStripMenuItem";
-            this.모든여행지ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.모든여행지ToolStripMenuItem.Text = "모든 여행지";
             // 
             // label1
             // 
@@ -232,8 +146,85 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 68);
             this.button2.TabIndex = 13;
-            this.button2.Text = "button2";
+            this.button2.Text = "탈퇴";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.SkyBlue;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.내정보ToolStripMenuItem,
+            this.상품정보ToolStripMenuItem,
+            this.로그아웃ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
+            this.menuStrip1.Size = new System.Drawing.Size(517, 27);
+            this.menuStrip1.TabIndex = 14;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 내정보ToolStripMenuItem
+            // 
+            this.내정보ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.정보수정ToolStripMenuItem,
+            this.ㄴ9ㅇToolStripMenuItem,
+            this.결제내역ToolStripMenuItem});
+            this.내정보ToolStripMenuItem.Name = "내정보ToolStripMenuItem";
+            this.내정보ToolStripMenuItem.Size = new System.Drawing.Size(59, 19);
+            this.내정보ToolStripMenuItem.Text = "내 정보";
+            // 
+            // 정보수정ToolStripMenuItem
+            // 
+            this.정보수정ToolStripMenuItem.Name = "정보수정ToolStripMenuItem";
+            this.정보수정ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.정보수정ToolStripMenuItem.Text = "정보 수정";
+            // 
+            // ㄴ9ㅇToolStripMenuItem
+            // 
+            this.ㄴ9ㅇToolStripMenuItem.Name = "ㄴ9ㅇToolStripMenuItem";
+            this.ㄴ9ㅇToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.ㄴ9ㅇToolStripMenuItem.Text = "예약 정보";
+            // 
+            // 결제내역ToolStripMenuItem
+            // 
+            this.결제내역ToolStripMenuItem.Name = "결제내역ToolStripMenuItem";
+            this.결제내역ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.결제내역ToolStripMenuItem.Text = "결제 내역";
+            // 
+            // 상품정보ToolStripMenuItem
+            // 
+            this.상품정보ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.상품리스트ToolStripMenuItem,
+            this.대표여행지ToolStripMenuItem1,
+            this.모든여행지ToolStripMenuItem1});
+            this.상품정보ToolStripMenuItem.Name = "상품정보ToolStripMenuItem";
+            this.상품정보ToolStripMenuItem.Size = new System.Drawing.Size(75, 19);
+            this.상품정보ToolStripMenuItem.Text = "상품 정보 ";
+            // 
+            // 상품리스트ToolStripMenuItem
+            // 
+            this.상품리스트ToolStripMenuItem.Name = "상품리스트ToolStripMenuItem";
+            this.상품리스트ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.상품리스트ToolStripMenuItem.Text = "상품 리스트";
+            // 
+            // 대표여행지ToolStripMenuItem1
+            // 
+            this.대표여행지ToolStripMenuItem1.Name = "대표여행지ToolStripMenuItem1";
+            this.대표여행지ToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
+            this.대표여행지ToolStripMenuItem1.Text = "대표 여행지";
+            // 
+            // 모든여행지ToolStripMenuItem1
+            // 
+            this.모든여행지ToolStripMenuItem1.Name = "모든여행지ToolStripMenuItem1";
+            this.모든여행지ToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
+            this.모든여행지ToolStripMenuItem1.Text = "모든 여행지";
+            // 
+            // 로그아웃ToolStripMenuItem
+            // 
+            this.로그아웃ToolStripMenuItem.Name = "로그아웃ToolStripMenuItem";
+            this.로그아웃ToolStripMenuItem.Size = new System.Drawing.Size(67, 19);
+            this.로그아웃ToolStripMenuItem.Text = "로그아웃";
             // 
             // 정보수정
             // 
@@ -241,6 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(517, 508);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
@@ -252,7 +244,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.Name = "정보수정";
@@ -265,18 +256,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 내정보ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 정보수정ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ㄴ9ㅇToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 결제내역ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 상품정보ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 인기상품ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 상품리스트ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 여행지정보ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 대표여행지ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 모든여행지ToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -288,5 +267,15 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 내정보ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 정보수정ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ㄴ9ㅇToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 결제내역ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 상품정보ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 상품리스트ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 대표여행지ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 모든여행지ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 로그아웃ToolStripMenuItem;
     }
 }

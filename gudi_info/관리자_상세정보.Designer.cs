@@ -48,6 +48,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.label1.Location = new System.Drawing.Point(268, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 30);
+            this.label1.Size = new System.Drawing.Size(158, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "x 관리 페이지";
             // 
@@ -73,7 +74,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(140, 803);
+            this.button1.Location = new System.Drawing.Point(314, 688);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 97);
             this.button1.TabIndex = 2;
@@ -82,7 +83,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(604, 803);
+            this.button2.Location = new System.Drawing.Point(531, 688);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 97);
             this.button2.TabIndex = 3;
@@ -93,7 +94,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(524, 151);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 34);
+            this.textBox1.Size = new System.Drawing.Size(239, 29);
             this.textBox1.TabIndex = 4;
             // 
             // label2
@@ -101,7 +102,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(373, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 24);
+            this.label2.Size = new System.Drawing.Size(85, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "일련번호";
             // 
@@ -110,7 +111,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(373, 292);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 24);
+            this.label3.Size = new System.Drawing.Size(61, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "버스ID";
             // 
@@ -119,7 +120,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(524, 289);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(246, 31);
+            this.comboBox1.Size = new System.Drawing.Size(246, 26);
             this.comboBox1.TabIndex = 8;
             // 
             // comboBox2
@@ -127,7 +128,7 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(524, 352);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(246, 31);
+            this.comboBox2.Size = new System.Drawing.Size(246, 26);
             this.comboBox2.TabIndex = 10;
             // 
             // label4
@@ -135,7 +136,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(373, 355);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 24);
+            this.label4.Size = new System.Drawing.Size(85, 19);
             this.label4.TabIndex = 9;
             this.label4.Text = "버스기사";
             // 
@@ -144,7 +145,7 @@
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(524, 417);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(246, 31);
+            this.comboBox3.Size = new System.Drawing.Size(246, 26);
             this.comboBox3.TabIndex = 12;
             // 
             // label5
@@ -152,7 +153,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(373, 420);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 24);
+            this.label5.Size = new System.Drawing.Size(110, 19);
             this.label5.TabIndex = 11;
             this.label5.Text = "가이드 직원";
             // 
@@ -160,7 +161,7 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(524, 482);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(269, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(269, 29);
             this.dateTimePicker1.TabIndex = 13;
             // 
             // label6
@@ -168,7 +169,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(373, 490);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 24);
+            this.label6.Size = new System.Drawing.Size(66, 19);
             this.label6.TabIndex = 14;
             this.label6.Text = "출발일";
             // 
@@ -177,7 +178,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(373, 225);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 30);
+            this.label7.Size = new System.Drawing.Size(66, 19);
             this.label7.TabIndex = 16;
             this.label7.Text = "상품명";
             // 
@@ -185,7 +186,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(524, 221);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 34);
+            this.textBox2.Size = new System.Drawing.Size(239, 29);
             this.textBox2.TabIndex = 15;
             // 
             // label8
@@ -193,7 +194,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(373, 559);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 24);
+            this.label8.Size = new System.Drawing.Size(85, 19);
             this.label8.TabIndex = 18;
             this.label8.Text = "전화번호";
             // 
@@ -201,7 +202,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(531, 549);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(239, 34);
+            this.textBox3.Size = new System.Drawing.Size(239, 29);
             this.textBox3.TabIndex = 17;
             // 
             // label9
@@ -209,7 +210,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(373, 617);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 24);
+            this.label9.Size = new System.Drawing.Size(47, 19);
             this.label9.TabIndex = 20;
             this.label9.Text = "가격";
             // 
@@ -217,14 +218,24 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(531, 607);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(239, 34);
+            this.textBox4.Size = new System.Drawing.Size(239, 29);
             this.textBox4.TabIndex = 19;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(85, 688);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(144, 97);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "확인";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // 관리자_상세정보
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(919, 937);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label8);
@@ -277,5 +288,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button3;
     }
 }
